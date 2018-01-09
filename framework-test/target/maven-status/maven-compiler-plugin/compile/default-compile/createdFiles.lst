@@ -1,0 +1,5 @@
+com\xkupc\framework\test\rabbitmq\common\TestMqQueueName.class
+com\xkupc\framework\test\rabbitmq\simple\TestPublisher.class
+com\xkupc\framework\test\rabbitmq\simple\SimpleTestMqConfig.class
+com\xkupc\framework\test\rabbitmq\simple\TestReceiver.class
+com\xkupc\framework\TestApplication.class
