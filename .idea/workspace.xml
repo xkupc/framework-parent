@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddda0946-0fcb-4472-9cb0-398b42ab7fa2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/pubsub/PubsubReceiverConfig.java" afterPath="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/pubsub/PubsubReceiverConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingReceiverConfig.java" afterPath="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingReceiverConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/topic/TopicReceiverConfig.java" afterPath="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/topic/TopicReceiverConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestMqConfig.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestMqConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver2.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/SimpleTestMqConfig.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/SimpleTestMqConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/TestReceiver.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/TestReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestMqConfig.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestMqConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver1.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver2.java" afterPath="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver2.java" />
-    </list>
+    <list default="true" id="ddda0946-0fcb-4472-9cb0-398b42ab7fa2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/framework-rabbitmq/target/" />
@@ -27,12 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PubsubReceiverConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/pubsub/PubsubReceiverConfig.java">
+      <file leaf-file-name="RoutingTestReceiver1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="127">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,47 +37,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoutingReceiverConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleWorkQueueConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/simple/SimpleWorkQueueConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoutingWorkQueueConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingWorkQueueConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoutingReceiverConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingReceiverConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
+            <state relative-caret-position="450">
               <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-              <folding>
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicReceiverConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/topic/TopicReceiverConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitMqTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-test/src/test/java/com/xkupc/framework/test/rabbitmq/RabbitMqTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="38" column="99" lean-forward="false" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoutingTestReceiver1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +73,30 @@
       <file leaf-file-name="RoutingTestReceiver2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="127">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/TestReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicTestMqConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestMqConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -118,17 +118,7 @@
         <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicTestPublisher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestPublisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -196,16 +186,16 @@
         <option value="$PROJECT_DIR$/framework-test/src/test/java/com/xkupc/framework/test/rabbitmq/RabbitMqTest.java" />
         <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/RoutingTestReceiver2.java" />
         <option value="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/pubsub/PubsubReceiverConfig.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestMqConfig.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestMqConfig.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/SimpleTestMqConfig.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver2.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/TestReceiver.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver1.java" />
-        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver2.java" />
         <option value="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingReceiverConfig.java" />
         <option value="$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/topic/TopicReceiverConfig.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestMqConfig.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver2.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/SimpleTestMqConfig.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/TestReceiver.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestMqConfig.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver1.java" />
+        <option value="$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver2.java" />
       </list>
     </option>
   </component>
@@ -756,7 +746,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515398939373</updated>
-      <workItem from="1515398942889" duration="36372000" />
+      <workItem from="1515398942889" duration="36496000" />
     </task>
     <servers />
   </component>
@@ -793,7 +783,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36372000" />
+    <option name="totallyTimeSpent" value="36496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -807,10 +797,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48654708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48654708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17825112" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17825112" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25590128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -978,29 +968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/simple/SimpleWorkQueueConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#643#644#0" expanded="false" />
-            <element signature="e#706#707#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/simple/SimplePublisherConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingWorkQueueConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1146,16 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/pubsub/PubsubTestReceiver2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1172,73 +1133,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/SimpleTestMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/TestReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,6 +1157,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/topic/TopicReceiverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/SimpleTestMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/simple/TestReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/topic/TopicTestReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-test/src/main/java/com/xkupc/framework/test/rabbitmq/routing/RoutingTestReceiver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/simple/SimpleReceiverConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1266,21 +1245,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingReceiverConfig.java">
+    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/simple/SimpleWorkQueueConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="336">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/topic/TopicReceiverConfig.java">
+    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingWorkQueueConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="420">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/routing/RoutingReceiverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -44,7 +44,6 @@ public class TopicReceiverConfig extends RabbitListenerConfig {
     @Bean
     @Order(2)
     BindingFactory bindingFactory() {
-        queueFactory();
         return new BindingFactory(rabbitAdmin, queueBindings);
     }
 }

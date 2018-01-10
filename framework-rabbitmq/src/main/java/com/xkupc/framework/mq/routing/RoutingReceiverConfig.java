@@ -33,7 +33,6 @@ public class RoutingReceiverConfig extends RabbitListenerConfig {
     @Bean
     @Order(2)
     public BindingFactory bindingFactory() {
-        queueFactory();
         return new BindingFactory(rabbitAdmin, queueBindings);
     }
 }
