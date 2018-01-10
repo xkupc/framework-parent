@@ -8,6 +8,7 @@ import com.xkupc.framework.mq.factory.QueueFactory;
 import org.springframework.amqp.rabbit.core.RabbitAdmin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.annotation.Order;
 
 /**
  * @author xk
@@ -32,15 +33,16 @@ public class PubsubReceiverConfig extends RabbitListenerConfig {
     RabbitAdmin rabbitAdmin;
 
     @Bean
+    @Order(1)
     public QueueFactory queueFactory() {
         System.err.println("********************init queue");
         return new QueueFactory(rabbitAdmin, queueArray);
     }
 
     @Bean
+    @Order(2)
     public BindingFactory bindingFactory() {
         System.err.println("********************binding queue to exchange");
-        queueFactory();
         return new BindingFactory(rabbitAdmin, queueArray, mqExchange);
     }
 }

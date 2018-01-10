@@ -6,6 +6,7 @@ import com.xkupc.framework.mq.factory.QueueFactory;
 import org.springframework.amqp.rabbit.core.RabbitAdmin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.annotation.Order;
 
 /**
  * @author xk
@@ -24,11 +25,13 @@ public class RoutingReceiverConfig extends RabbitListenerConfig {
     RabbitAdmin rabbitAdmin;
 
     @Bean
+    @Order(1)
     public QueueFactory queueFactory() {
         return new QueueFactory(rabbitAdmin, queueBindings);
     }
 
     @Bean
+    @Order(2)
     public BindingFactory bindingFactory() {
         queueFactory();
         return new BindingFactory(rabbitAdmin, queueBindings);
