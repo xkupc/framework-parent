@@ -3,7 +3,7 @@ spring:
   primary:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/segment?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=true
+        url: jdbc:mysql://127.0.0.1:3306/api?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=true
         username: root
         password: 123456
         initialSize: 5
