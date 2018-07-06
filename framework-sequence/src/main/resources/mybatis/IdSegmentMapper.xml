@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xkupc.framework.sequence.dao.IdSegmentMapper">
+    <resultMap id="BaseResultMap" type="com.xkupc.framework.sequence.model.IdSegment">
+        <result column="biz_tag" property="bizTag" jdbcType="VARCHAR"/>
+        <result column="max_id" property="maxId" jdbcType="BIGINT"/>
+        <result column="p_step" property="pStep" jdbcType="BIGINT"/>
+        <result column="max_sequence" property="maxSequence" jdbcType="BIGINT"/>
+        <result column="last_update_time" property="lastUpdateTime" jdbcType="TIMESTAMP"/>
+        <result column="current_update_time" property="currentUpdateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    biz_tag,max_id,p_step,max_sequence,last_update_time,current_update_time
+  </sql>
+    <insert id="insertSelective" parameterType="com.xkupc.framework.sequence.model.IdSegment">
+        insert into id_segment
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="bizTag != null">
+                biz_tag,
+            </if>
+            <if test="maxId != null">
+                max_id,
+            </if>
+            <if test="pStep != null">
+                p_step,
+            </if>
+            <if test="lastUpdateTime != null">
+                last_update_time,
+            </if>
+            <if test="currentUpdateTime != null">
+                current_update_time,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="bizTag != null">
+                #{bizTag,jdbcType=VARCHAR},
+            </if>
+            <if test="maxId != null">
+                #{maxId,jdbcType=BIGINT},
+            </if>
+            <if test="pStep != null">
+                #{pStep,jdbcType=BIGINT},
+            </if>
+            <if test="lastUpdateTime != null">
+                #{lastUpdateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="currentUpdateTime != null">
+                #{currentUpdateTime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <select id="queryByBizTag" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select
+        <include refid="Base_Column_List"/>
+        from id_segment
+        where biz_tag = #{bizTag,jdbcType=VARCHAR}
+    </select>
+    <update id="updateByByBizTag" parameterType="com.xkupc.framework.sequence.model.IdSegment">
+        UPDATE id_segment
+        <set>
+            <if test="bizTag !=null">
+                biz_tag = #{bizTag,jdbcType=VARCHAR},
+            </if>
+            <if test="maxId != null">
+                max_id = #{maxId,jdbcType=BIGINT},
+            </if>
+            <if test="pStep != null">
+                p_step = #{pStep,jdbcType=BIGINT},
+            </if>
+            <if test="lastUpdateTime != null">
+                last_update_time = #{lastUpdateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="currentUpdateTime != null">
+                current_update_time = #{currentUpdateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        WHERE biz_tag = #{bizTag,jdbcType=VARCHAR}
+    </update>
+</mapper>

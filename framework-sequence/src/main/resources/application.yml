@@ -1,6 +1,6 @@
 spring:
   datasource:
-  primary:
+     primary:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.jdbc.Driver
         url: jdbc:mysql://127.0.0.1:3306/api?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=true
@@ -26,3 +26,10 @@ spring:
         filters: stat,slf4j
         # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
         connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    jdbc-type-for-null: VARCHAR
+  mapper-locations: mybatis/*Mapper.xml
+  typeAliasesPackage: com.xkupc.framework.**.model

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3256b8e3-fc6c-4ff8-9948-fc574efd091f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sequence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sequence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/dao/IdSegmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-sequence/src/main/resources/mybatis/IdSegmentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sequence/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sequence/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/framework-test/target/" />
     <ignored path="$PROJECT_DIR$/framework-rabbitmq/target/" />
@@ -19,92 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sequence/pom.xml">
+      <file leaf-file-name="TableIdServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DruidDataPoolConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/config/DruidDataPoolConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="66" column="22" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="22" />
+            <state relative-caret-position="144">
+              <caret line="208" column="102" selection-start-line="208" selection-start-column="102" selection-end-line="208" selection-end-column="102" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SequenceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/SequenceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sequence/src/test/java/com/xkupc/framework/sequence/test/BaseServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#728#908#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdServiceFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/factory/IdServiceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="29" selection-end-column="21" />
-              <folding>
-                <element signature="n#parent#0;n#project#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -127,7 +49,6 @@
       <list>
         <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/IdService.java" />
         <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/model/IdSegment.java" />
-        <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java" />
         <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/factory/IdServiceFactory.java" />
         <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/exception/SequenceException.java" />
         <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/config/DataSourceConfig.java" />
@@ -138,6 +59,9 @@
         <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/config/DruidDataPoolConfig.java" />
         <option value="$PROJECT_DIR$/framework-sequence/pom.xml" />
         <option value="$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/dao/IdSegmentMapper.java" />
+        <option value="$PROJECT_DIR$/framework-sequence/src/main/resources/mybatis/IdSegmentMapper.xml" />
+        <option value="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -298,7 +222,50 @@
               <item name="framework-sequence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-framwork" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-framwork" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-framwork" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="framework-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-framwork" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="framework-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -423,12 +390,32 @@
       <option name="presentableId" value="Default" />
       <updated>1530858153395</updated>
       <workItem from="1530858156184" duration="286000" />
-      <workItem from="1530858580546" duration="3763000" />
+      <workItem from="1530858580546" duration="5003000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 34m 59s.xml">
+      <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 36m 13s.xml">
+      <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 38m 39s.xml">
+      <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 41m 41s.xml">
+      <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 49m 51s.xml">
+      <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 53m 51s.xml">
+      <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4049000" />
+    <option name="totallyTimeSpent" value="5289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -446,16 +433,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.0345679" />
+      <window_info anchor="bottom" id="Messages" weight="0.4925926" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6728395" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1991342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2797619" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -475,18 +462,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4032">
-          <caret line="126" column="30" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6894#7972#0" expanded="true" />
-            <element signature="e#7971#7972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-rabbitmq/src/main/java/com/xkupc/framework/mq/exception/RabbitMQException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -559,18 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/SequenceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -610,6 +573,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/dao/IdSegmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/resources/mybatis/IdSegmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="57" column="93" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/SequenceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/config/DruidDataPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#1063#1148#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="786">
@@ -617,27 +629,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/config/DruidDataPoolConfig.java">
+    <entry file="file://$PROJECT_DIR$/framework-sequence/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="2">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="208" column="102" selection-start-line="208" selection-start-column="102" selection-end-line="208" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sequence/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
