@@ -4,6 +4,7 @@
     <list default="true" id="3256b8e3-fc6c-4ff8-9948-fc574efd091f" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/dao/IdSegmentMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/framework-sequence/src/main/resources/mybatis/IdSegmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sequence/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-sequence/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sequence/target/classes/application.yml" afterDir="false" />
     </list>
@@ -24,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="208" column="102" selection-start-line="208" selection-start-column="102" selection-end-line="208" selection-end-column="102" />
+              <caret line="208" column="103" selection-start-line="208" selection-start-column="103" selection-end-line="208" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -390,7 +391,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530858153395</updated>
       <workItem from="1530858156184" duration="286000" />
-      <workItem from="1530858580546" duration="5003000" />
+      <workItem from="1530858580546" duration="5158000" />
     </task>
     <servers />
   </component>
@@ -413,9 +414,12 @@
     <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 53m 51s.xml">
       <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BaseServiceTest_getId - 2018.07.06 at 15h 56m 34s.xml">
+      <configuration name="BaseServiceTest.getId" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5289000" />
+    <option name="totallyTimeSpent" value="5444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -439,10 +443,10 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60246915" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2797619" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2797619" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -639,7 +643,7 @@
     <entry file="file://$PROJECT_DIR$/framework-sequence/src/main/java/com/xkupc/framework/sequence/service/impl/TableIdServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="208" column="102" selection-start-line="208" selection-start-column="102" selection-end-line="208" selection-end-column="102" />
+          <caret line="208" column="103" selection-start-line="208" selection-start-column="103" selection-end-line="208" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

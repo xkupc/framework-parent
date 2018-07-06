@@ -206,7 +206,7 @@ public class TableIdServiceImpl implements IdService {
     private IdSegment updateId(String bizTag) throws Exception {
 
         String querySql = "select P_STEP ,MAX_ID ,LAST_UPDATE_TIME,CURRENT_UPDATE_TIME,MAX_SEQUENCE from ID_SEGMENT where BIZ_TAG=?";
-        String updateSql = "update ID_SEGMENT set MAX_ID=?,LAST_UPDATE_TIME=?,CURRENT_UPDATE_TIME=new() where BIZ_TAG=? and MAX_ID=?";
+        String updateSql = "update ID_SEGMENT set MAX_ID=?,LAST_UPDATE_TIME=?,CURRENT_UPDATE_TIME=now() where BIZ_TAG=? and MAX_ID=?";
 
         final IdSegment currentSegment = new IdSegment();
         this.jdbcTemplate.query(querySql, new String[]{bizTag}, new RowCallbackHandler() {
