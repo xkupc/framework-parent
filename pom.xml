@@ -10,6 +10,7 @@
     <modules>
         <module>framework-rabbitmq</module>
         <module>framework-test</module>
+        <module>framework-sequence</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

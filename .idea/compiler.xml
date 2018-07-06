@@ -7,13 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="framework-rabbitmq" />
+        <module name="framework-sequence" />
         <module name="framework-test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="framework-parent" target="1.5" />
-      <module name="framework-rabbitmq" target="1.8" />
-      <module name="framework-test" target="1.6" />
-    </bytecodeTargetLevel>
   </component>
 </project>
